@@ -1,0 +1,24 @@
+#main {
+  background-color: gray;
+}
+.center {
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+}
+
+ul {
+  /*    background: #3399ff;*/
+  padding: 18px;
+}
+
+ul li {
+  /*    background: #cce5ff;*/
+  margin: 5px;
+  text-align: left;
+  padding-left: 5px;
+}
