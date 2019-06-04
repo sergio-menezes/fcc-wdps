@@ -1,7 +1,28 @@
 <!DOCTYPE html>
 <html="en-US">
-<head></head>
+<head>
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
   <body>
-    <p>Esse é um teste</p>
+    <h1 id="title">Survey Form</h1>
+    <p id="description" >Let us know we can improve freeCodeCamp</P>
+    <form id="survey-form">
+      <label id="name-label" for="name">
+        *Name:</label><input id="name" id="name-label" type="text" name="name" required placeholder="Enter your nome"></input></br>
+      <label id="email-label" for="mail">
+        *Email:</label><input id="email" type="email" name="email" required required placeholder="Enter your email"></input></br>    
+      <label id="number-label" for="number">
+        Age:</label><input id="number" type="number" name="age" min="12" max="120" placeholder="Enter your age"></input></br>
+      Which option best describes your current role?
+      <select id="dropdown"> 
+        <option disabled value>Select an option</option>
+      <option>Student</option>
+      <option>Full time job</option>
+      <option>Full time learner</option>
+      <option>Prefer not to say</option>
+      <button>Submit</button>
+      </select>
+    </form>
   </body>
 </html>
